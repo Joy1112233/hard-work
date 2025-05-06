@@ -26,4 +26,5 @@
 .navber a:hover{
     background-color:rgb(167, 154, 139);
     transition: background-color 1s;
+    border-radius: 5px;
 }
