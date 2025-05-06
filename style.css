@@ -58,6 +58,17 @@
     text-align: center;
     font-weight: bold;
 }
+.banner-item button{
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 10px 5px;
+    background-color: rgb(236, 63, 10);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
 
 @media screen and (max-width:577px) {
     .navber a{
@@ -76,5 +87,16 @@
         color: white;
         text-align: center;
         font-weight: bold;
+    }
+    .banner-item button{
+        padding: 7px 14px;
+        margin-top: 5px;
+        border-radius: 10px 5px;
+        background-color: rgb(236, 63, 10);
+        border: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 15px;
     }
 }
