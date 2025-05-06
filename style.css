@@ -17,7 +17,7 @@
     display: block;
     text-decoration: none;
     padding: 14px 20px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
     font-family: "Work Sans", sans-serif;
@@ -27,4 +27,54 @@
     background-color:rgb(167, 154, 139);
     transition: background-color 1s;
     border-radius: 5px;
+}
+
+.banner{
+    display: block;
+    background-image: url("/image/cover-food.jpg");
+    height: 500px;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.banner-container{
+    border: 1px solid rgb(117, 50, 50);
+    height: 500px;
+    /* margin: 20px; */
+
+}
+.banner-item{
+    border: 3px solid rgb(222, 215, 230);
+    border-radius: 15px 2px;
+    margin: 100px 200px;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width:577px) {
+    .navber a{
+        display: block;
+        text-decoration: none;
+        padding: 5px 7px;
+        font-size: 1em;
+        font-weight: bold;
+        color: white;
+        font-family: "Work Sans", sans-serif;
+    }
+    .banner-item{
+        border: 1.5px solid rgb(222, 215, 230);
+        margin: 160px 80px;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+    }
 }
